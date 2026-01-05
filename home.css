@@ -1,0 +1,65 @@
+.container{
+   display: flex;
+   padding: 150px;
+   justify-content: space-between;
+   align-items: center;
+   height: 390px;
+}
+
+.btn{
+    border-radius: 50px;
+    padding: 8px 10px;
+    border: none;
+    
+
+}
+.title{
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    color: orange;
+}
+.btn-order-now{
+    background-color: rgba(255, 166, 0, 0.863);
+    color: black;
+}
+.slogan{
+    color: white;
+}
+.desc{
+    color: white;
+}
+.button-contact-us{
+    background: transparent;
+    border: 2px  solid white;
+    color: white;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+}
+
+#txt-about-us, #p-about-us {
+    text-align: center;
+}
+
+#p-about-us {
+    margin-top: 50px;
+}
+
+#img-about-us {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.long-dash {
+    width: 60px;
+    height: 6px;
+    border-radius: 9px;
+    background-color: orange;
+}
+
